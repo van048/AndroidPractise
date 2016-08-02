@@ -39,6 +39,7 @@ public class SketchView extends View{
     public SketchView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
 
+        // R.style.AppTheme??
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.SketchView, defStyleAttr, R.style.AppTheme);
 
         custom_size = a.getDimensionPixelSize(R.styleable.SketchView_size, SIZE);
